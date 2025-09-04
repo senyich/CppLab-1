@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CPPFIRSTLAB.dir/src/source/console.cpp.o CMakeFiles/CPPFIRSTLAB.dir/src/source/main.cpp.o CMakeFiles/CPPFIRSTLAB.dir/src/source/solution1.cpp.o -o CPPFIRSTLAB 

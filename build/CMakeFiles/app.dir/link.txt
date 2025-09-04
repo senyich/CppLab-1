@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/app.dir/src/source/main.cpp.o CMakeFiles/app.dir/src/source/solution1.cpp.o -o app 

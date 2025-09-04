@@ -1,0 +1,3 @@
+/home/senyacm/github/CPPLessons/CppFirstLab/build/CMakeFiles/app.dir
+/home/senyacm/github/CPPLessons/CppFirstLab/build/CMakeFiles/edit_cache.dir
+/home/senyacm/github/CPPLessons/CppFirstLab/build/CMakeFiles/rebuild_cache.dir
