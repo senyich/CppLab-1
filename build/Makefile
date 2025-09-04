@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
+# Target rules for targets named app.exe
 
 # Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
+app.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app.exe
+.PHONY : app.exe
 
 # fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
+app.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/build
+.PHONY : app.exe/fast
 
 src/source/main.o: src/source/main.cpp.o
 .PHONY : src/source/main.o
 
 # target to build an object file
 src/source/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/source/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/src/source/main.cpp.o
 .PHONY : src/source/main.cpp.o
 
 src/source/main.i: src/source/main.cpp.i
@@ -142,7 +142,7 @@ src/source/main.i: src/source/main.cpp.i
 
 # target to preprocess a source file
 src/source/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/source/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/src/source/main.cpp.i
 .PHONY : src/source/main.cpp.i
 
 src/source/main.s: src/source/main.cpp.s
@@ -150,7 +150,7 @@ src/source/main.s: src/source/main.cpp.s
 
 # target to generate assembly for a file
 src/source/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/source/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/src/source/main.cpp.s
 .PHONY : src/source/main.cpp.s
 
 src/source/solution1.o: src/source/solution1.cpp.o
@@ -158,7 +158,7 @@ src/source/solution1.o: src/source/solution1.cpp.o
 
 # target to build an object file
 src/source/solution1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/source/solution1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/src/source/solution1.cpp.o
 .PHONY : src/source/solution1.cpp.o
 
 src/source/solution1.i: src/source/solution1.cpp.i
@@ -166,7 +166,7 @@ src/source/solution1.i: src/source/solution1.cpp.i
 
 # target to preprocess a source file
 src/source/solution1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/source/solution1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/src/source/solution1.cpp.i
 .PHONY : src/source/solution1.cpp.i
 
 src/source/solution1.s: src/source/solution1.cpp.s
@@ -174,7 +174,7 @@ src/source/solution1.s: src/source/solution1.cpp.s
 
 # target to generate assembly for a file
 src/source/solution1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/source/solution1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.exe.dir/build.make CMakeFiles/app.exe.dir/src/source/solution1.cpp.s
 .PHONY : src/source/solution1.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... app"
+	@echo "... app.exe"
 	@echo "... src/source/main.o"
 	@echo "... src/source/main.i"
 	@echo "... src/source/main.s"

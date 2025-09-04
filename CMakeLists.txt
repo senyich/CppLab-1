@@ -11,4 +11,4 @@ set(SOURCES
     src/source/solution1.cpp
 )
 
-add_executable(app ${SOURCES})
+add_executable(app.exe ${SOURCES})
