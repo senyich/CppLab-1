@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/app.dir/src/source/main.cpp.o"
   "CMakeFiles/app.dir/src/source/main.cpp.o.d"
-  "CMakeFiles/app.dir/src/source/solution1.cpp.o"
-  "CMakeFiles/app.dir/src/source/solution1.cpp.o.d"
+  "CMakeFiles/app.dir/src/source/solution.cpp.o"
+  "CMakeFiles/app.dir/src/source/solution.cpp.o.d"
   "app"
   "app.pdb"
 )

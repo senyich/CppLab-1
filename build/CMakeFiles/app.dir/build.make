@@ -83,30 +83,30 @@ CMakeFiles/app.dir/src/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/source/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/senyacm/github/CPPLessons/CppFirstLab/src/source/main.cpp -o CMakeFiles/app.dir/src/source/main.cpp.s
 
-CMakeFiles/app.dir/src/source/solution1.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/source/solution1.cpp.o: /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution1.cpp
-CMakeFiles/app.dir/src/source/solution1.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/senyacm/github/CPPLessons/CppFirstLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/source/solution1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/source/solution1.cpp.o -MF CMakeFiles/app.dir/src/source/solution1.cpp.o.d -o CMakeFiles/app.dir/src/source/solution1.cpp.o -c /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution1.cpp
+CMakeFiles/app.dir/src/source/solution.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/source/solution.cpp.o: /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution.cpp
+CMakeFiles/app.dir/src/source/solution.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/senyacm/github/CPPLessons/CppFirstLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/source/solution.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/source/solution.cpp.o -MF CMakeFiles/app.dir/src/source/solution.cpp.o.d -o CMakeFiles/app.dir/src/source/solution.cpp.o -c /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution.cpp
 
-CMakeFiles/app.dir/src/source/solution1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/source/solution1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution1.cpp > CMakeFiles/app.dir/src/source/solution1.cpp.i
+CMakeFiles/app.dir/src/source/solution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/source/solution.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution.cpp > CMakeFiles/app.dir/src/source/solution.cpp.i
 
-CMakeFiles/app.dir/src/source/solution1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/source/solution1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution1.cpp -o CMakeFiles/app.dir/src/source/solution1.cpp.s
+CMakeFiles/app.dir/src/source/solution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/source/solution.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution.cpp -o CMakeFiles/app.dir/src/source/solution.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/source/main.cpp.o" \
-"CMakeFiles/app.dir/src/source/solution1.cpp.o"
+"CMakeFiles/app.dir/src/source/solution.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/source/main.cpp.o
-app: CMakeFiles/app.dir/src/source/solution1.cpp.o
+app: CMakeFiles/app.dir/src/source/solution.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/senyacm/github/CPPLessons/CppFirstLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"

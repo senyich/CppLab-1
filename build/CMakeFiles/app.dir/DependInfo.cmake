@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/senyacm/github/CPPLessons/CppFirstLab/src/source/main.cpp" "CMakeFiles/app.dir/src/source/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/source/main.cpp.o.d"
-  "/home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution1.cpp" "CMakeFiles/app.dir/src/source/solution1.cpp.o" "gcc" "CMakeFiles/app.dir/src/source/solution1.cpp.o.d"
+  "/home/senyacm/github/CPPLessons/CppFirstLab/src/source/solution.cpp" "CMakeFiles/app.dir/src/source/solution.cpp.o" "gcc" "CMakeFiles/app.dir/src/source/solution.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -8,7 +8,7 @@ include_directories(src/namespaces)
 
 set(SOURCES
     src/source/main.cpp
-    src/source/solution1.cpp
+    src/source/solution.cpp
 )
 
-add_executable(app.exe ${SOURCES})
+add_executable(app ${SOURCES})
